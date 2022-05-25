@@ -4,7 +4,7 @@ const maiorValor = 1000;
 const numeroSecreto = gerarNumeroAleatorio();
 
 function gerarNumeroAleatorio(){
-    return parseInt(Math.random() * 100)
+    return parseInt(Math.random() * 1000)
 }
 
 console.log('Número Secreto:', numeroSecreto);
